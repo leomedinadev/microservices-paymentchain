@@ -4,13 +4,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.tio.leo.paymentchain.businessdomain</groupId>
+		<groupId>ec.com.leodev.paymentchain.businessdomain</groupId>
 		<artifactId>businessdomain</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	<!--	<relativePath/> --><!-- lookup parent from repository -->
 	</parent>
 
-<!--	<groupId>com.tio.leo.paymentchain.transactions</groupId>-->
+<!--	<groupId>ec.com.leodev.paymentchain.transactions</groupId>-->
 	<artifactId>transaction</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<name>transaction</name>

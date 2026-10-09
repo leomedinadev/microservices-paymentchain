@@ -6,11 +6,11 @@
 
     <parent>
         <artifactId>paymentchain-parent</artifactId>
-        <groupId>com.tio.leo.paymentchain</groupId>
+        <groupId>ec.com.leodev.paymentchain</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.tio.leo.paymentchain.infraestructuradomain</groupId>
+    <groupId>ec.com.leodev.paymentchain.infraestructuradomain</groupId>
     <artifactId>infraestructuradomain</artifactId>
     <packaging>pom</packaging>
 

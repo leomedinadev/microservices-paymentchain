@@ -1,0 +1,21 @@
+# Los tests no necesitan Config Server ni Eureka: la configuración va aquí y la base es H2 en memoria
+spring:
+  application:
+    name: businessdomain-transaction-test
+  cloud:
+    config:
+      enabled: false
+      discovery:
+        enabled: false
+  datasource:
+    url: jdbc:h2:mem:transaction
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+eureka:
+  client:
+    enabled: false
+# Propiedades que en ejecución normal entrega el Config Server
+user:
+  role: tester
+  alias: test
