@@ -21,7 +21,7 @@ spring:
         max-interval: 1000
         max-attempts: 6
       username: admin
-      password: admin
+      password: ${CONFIG_SERVER_PASSWORD:admin}
       name: config-client
       profile: development
   config:
